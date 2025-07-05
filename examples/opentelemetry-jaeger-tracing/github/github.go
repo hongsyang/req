@@ -3,6 +3,7 @@ package github
 import (
 	"context"
 	"fmt"
+	"github.com/hongsyang/req/v3"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/codes"
 	"go.opentelemetry.io/otel/trace"
