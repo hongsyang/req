@@ -18,12 +18,12 @@ import (
 	"strings"
 	"time"
 
-	utls "github.com/refraction-networking/utls"
+	utls "github.com/hongsyang/utls"
 	"golang.org/x/net/publicsuffix"
 
-	"github.com/imroc/req/v3/http2"
-	"github.com/imroc/req/v3/internal/header"
-	"github.com/imroc/req/v3/internal/util"
+	"github.com/hongsyang/req/v3/http2"
+	"github.com/hongsyang/req/v3/internal/header"
+	"github.com/hongsyang/req/v3/internal/util"
 )
 
 // DefaultClient returns the global default Client.
@@ -1194,7 +1194,7 @@ func (conn *uTLSConn) ConnectionState() tls.ConnectionState {
 }
 
 // SetTLSFingerprint set the tls fingerprint for tls handshake, will use utls
-// (https://github.com/refraction-networking/utls) to perform the tls handshake,
+// (https://github.com/hongsyang/utls) to perform the tls handshake,
 // which uses the specified clientHelloID to simulate the tls fingerprint.
 // Note this is valid for HTTP1 and HTTP2, not HTTP3.
 func (c *Client) SetTLSFingerprint(clientHelloID utls.ClientHelloID) *Client {

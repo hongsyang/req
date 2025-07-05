@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/imroc/req/v3/http2"
-	utls "github.com/refraction-networking/utls"
+	"github.com/hongsyang/req/v3/http2"
+	utls "github.com/hongsyang/utls"
 )
 
 // Identical for both Blink-based browsers (Chrome, Chromium, etc.) and WebKit-based browsers (Safari, etc.)

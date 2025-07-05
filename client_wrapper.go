@@ -9,8 +9,8 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/imroc/req/v3/http2"
-	utls "github.com/refraction-networking/utls"
+	"github.com/hongsyang/req/v3/http2"
+	utls "github.com/hongsyang/utls"
 )
 
 // WrapRoundTrip is a global wrapper methods which delegated

@@ -2,9 +2,8 @@ package main
 
 import (
 	"fmt"
+	"github.com/hongsyang/req/v3"
 	"strconv"
-
-	"github.com/imroc/req/v3"
 )
 
 // Change the name if you want

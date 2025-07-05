@@ -2,11 +2,10 @@ module uploadclient
 
 go 1.22.0
 
-toolchain go1.22.3
 
-replace github.com/imroc/req/v3 => ../../../
+replace github.com/hongsyang/req/v3 => ../../../
 
-require github.com/imroc/req/v3 v3.0.0
+require github.com/hongsyang/req/v3 v3.0.0
 
 require (
 	github.com/cheekybits/genny v1.0.0 // indirect

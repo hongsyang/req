@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/imroc/req/v3"
-)
+import "github.com/hongsyang/req/v3"
 
 func main() {
 	req.EnableDumpAllWithoutRequestBody()
