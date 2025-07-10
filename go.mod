@@ -5,7 +5,7 @@ go 1.24
 require (
 	github.com/andybalholm/brotli v1.2.0
 	github.com/hashicorp/go-multierror v1.1.1
-	github.com/hongsyang/utls v1.7.3-1
+	github.com/hongsyang/utls v1.7.3-2
 	github.com/icholy/digest v1.1.0
 	github.com/klauspost/compress v1.18.0
 	github.com/quic-go/qpack v0.5.1

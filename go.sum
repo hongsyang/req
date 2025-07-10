@@ -11,8 +11,8 @@ github.com/hashicorp/errwrap v1.1.0 h1:OxrOeh75EUXMY8TBjag2fzXGZ40LB6IKw45YeGUDY
 github.com/hashicorp/errwrap v1.1.0/go.mod h1:YH+1FKiLXxHSkmPseP+kNlulaMuP3n2brvKWEqk/Jc4=
 github.com/hashicorp/go-multierror v1.1.1 h1:H5DkEtf6CXdFp0N0Em5UCwQpXMWke8IA0+lD48awMYo=
 github.com/hashicorp/go-multierror v1.1.1/go.mod h1:iw975J/qwKPdAO1clOe2L8331t/9/fmwbPZ6JB6eMoM=
-github.com/hongsyang/utls v1.7.3-1 h1:04Llkj1f0eG0tNkt6HDWJaHZC4kT5HcGvDUKW/pf+4E=
-github.com/hongsyang/utls v1.7.3-1/go.mod h1:XClWEEyIyI9AuPku7A6yJz9/JO8quomJEQ6ijbVERQA=
+github.com/hongsyang/utls v1.7.3-2 h1:rBRtxKDB7tOkVb8yyL4pPdNZOGC9+FN6N17lquORFu4=
+github.com/hongsyang/utls v1.7.3-2/go.mod h1:XClWEEyIyI9AuPku7A6yJz9/JO8quomJEQ6ijbVERQA=
 github.com/icholy/digest v1.1.0 h1:HfGg9Irj7i+IX1o1QAmPfIBNu/Q5A5Tu3n/MED9k9H4=
 github.com/icholy/digest v1.1.0/go.mod h1:QNrsSGQ5v7v9cReDI0+eyjsXGUoRSUZQHeQ5C4XLa0Y=
 github.com/klauspost/compress v1.18.0 h1:c/Cqfb0r+Yi+JtIEq73FWXVkRonBlf0CRNYc8Zttxdo=
