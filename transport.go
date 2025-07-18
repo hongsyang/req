@@ -167,6 +167,22 @@ func T() *Transport {
 	return t
 }
 
+func NewT() *Transport {
+	t := &Transport{
+		Options: transport.Options{
+			Proxy:                 http.ProxyFromEnvironment,
+			MaxIdleConns:          100,
+			MaxIdleConnsPerHost:   100,
+			IdleConnTimeout:       10 * time.Second,
+			TLSHandshakeTimeout:   10 * time.Second,
+			ExpectContinueTimeout: 1 * time.Second,
+			TLSClientConfig:       &tls.Config{NextProtos: []string{"http/1.1", "h2"}},
+		},
+	}
+	t.t2 = &h2internal.Transport{Options: &t.Options}
+	return t
+}
+
 // HttpRoundTripFunc is a http.RoundTripper implementation, which is a simple function.
 type HttpRoundTripFunc func(req *http.Request) (resp *http.Response, err error)
 

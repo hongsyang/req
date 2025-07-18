@@ -1537,7 +1537,7 @@ func memoryCookieJarFactory() *cookiejar.Jar {
 
 // C create a new client.
 func C() *Client {
-	t := T()
+	t := NewT()
 
 	httpClient := &http.Client{
 		Transport: t,
