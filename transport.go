@@ -171,9 +171,9 @@ func NewT() *Transport {
 	t := &Transport{
 		Options: transport.Options{
 			Proxy:                 http.ProxyFromEnvironment,
-			MaxIdleConns:          100,
+			MaxIdleConns:          200,
 			MaxIdleConnsPerHost:   100,
-			IdleConnTimeout:       10 * time.Second,
+			IdleConnTimeout:       30 * time.Second,
 			TLSHandshakeTimeout:   10 * time.Second,
 			ExpectContinueTimeout: 1 * time.Second,
 			TLSClientConfig:       &tls.Config{NextProtos: []string{"http/1.1", "h2"}},
